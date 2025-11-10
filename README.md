@@ -282,5 +282,3 @@ Esto activa la lógica de evaluación final de la IA y marca el test como comple
 
       * **Resultado Esperado:** `Status: 200 OK`. Recibirás un JSON con el campo **`results`**, que contiene el JSON estructurado de la evaluación final (puntuaciones y resumen).
       * **Verificación Final:** En **pgAdmin**, el registro ID 2 en la tabla `core_testexecution` debe tener el campo **`finish_time`** y **`evaluation_result`** rellenados con el JSON de la evaluación.
-
-¡Con estos pasos, habrás comprobado el flujo completo de tu API de principio a fin\! ¿Hay alguna de estas fases en la que necesites ayuda específica o quieres pasar a configurar la autenticación por Tokens?
